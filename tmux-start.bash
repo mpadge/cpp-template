@@ -10,6 +10,7 @@ tmux send-keys -t $SESSION:1 ':' 'tabe junk.c++' C-m
 
 tmux split-window -h
 tmux send-keys -t $SESSION:1 'cd ..' C-m
+tmux send-keys -t $SESSION:1 'vim README.md' C-m
 tmux select-pane -t 0
 
 cd ../

@@ -43,7 +43,7 @@ int main (int argc, char *argv[])
         }
 
         if (vm.count("version")) {
-            std::cout << "net3, version 1.0" << std::endl;
+            std::cout << "junk: version 0.0" << std::endl;
             return 0;
         }
 

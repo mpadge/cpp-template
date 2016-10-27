@@ -1,7 +1,20 @@
 # cpp-template
 
-Blank template for new C++ project. Compile with
+Blank template for new C++ project. 
+
+Start editing with
 ```
-> bash build/mycmake.bash
+> bash tmux-start.bash
 ```
-`main` includes `boost_program_options`
+
+Compile with
+```
+> cd build/
+> bash mycmake.bash
+```
+
+Use program with 
+```
+> ./junk --help
+```
+courtesy of `boost_program_options`
